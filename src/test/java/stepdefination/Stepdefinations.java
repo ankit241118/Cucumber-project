@@ -9,7 +9,7 @@ public class Stepdefinations {
 
 	@Given("^User is on landing page$")
 	public void User_is_on_landing_page() {
-		System.out.println("User is on the landing page--");
+		System.out.println("--User is on the landing page--");
 		
 	}
 	@When("^User logins with valid usernamen and password$")
