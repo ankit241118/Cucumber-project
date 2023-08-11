@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.246" tests="7" skipped="0" failures="0" errors="0">
+<testcase classname="Login funcionality" name="User login" time="0.03">
+<system-out><![CDATA[
+Given User is on landing page...............................................passed
+When User logins with valid usernamen and password..........................passed
+Then Dashboard page is displayed............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login funcionality" name="User login app" time="0.004">
+<system-out><![CDATA[
+Given App is open...........................................................passed
+When User logins with valid usernamen and password..........................passed
+Then Dashboard screen is displayed on app...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login funcionality" name="User login" time="0.003">
+<system-out><![CDATA[
+Given User is on landing page...............................................passed
+When User logins with "Rishi" and "Kayasth".................................passed
+Then Dashboard page is displayed............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login funcionality" name=" - Example #1.1" time="0.001">
+<system-out><![CDATA[
+Given User is on landing page...............................................passed
+When User logins with multiple username and password Ankit and 2333.........passed
+Then Dashboard page is displayed............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login funcionality" name=" - Example #1.2" time="0.006">
+<system-out><![CDATA[
+Given User is on landing page...............................................passed
+When User logins with multiple username and password Rahul and 35435........passed
+Then Dashboard page is displayed............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login funcionality" name=" - Example #1.3" time="0.001">
+<system-out><![CDATA[
+Given User is on landing page...............................................passed
+When User logins with multiple username and password Rishi and 434..........passed
+Then Dashboard page is displayed............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login funcionality" name=" - Example #1.4" time="0.001">
+<system-out><![CDATA[
+Given User is on landing page...............................................passed
+When User logins with multiple username and password Pushkar and 34354......passed
+Then Dashboard page is displayed............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
