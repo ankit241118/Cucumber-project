@@ -57,7 +57,7 @@ public class Stepdefinations {
 	
 	@Given("^App is open$")
 	public void lauchapp() {
-		System.out.println("App lauched");
+		System.out.println("App lauched---");
 	}
 	
 	@Then("^Dashboard screen is displayed on app$")
