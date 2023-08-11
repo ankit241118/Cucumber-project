@@ -8,7 +8,7 @@ public class hooks {
 	
 @Before("@MobileTest")
 public void before() {
-	System.out.println("Hook before mobile");
+	System.out.println("Hook before ");
 }
 
 @After("@MobileTest")
